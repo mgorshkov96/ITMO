@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 
 class BankAccount
 {
@@ -54,8 +55,9 @@ class BankAccount
             accBal += amount;
             return accBal;
         }
-        catch (ArgumentOutOfRangeException)
+        catch (ArgumentOutOfRangeException e)
         {
+            Trace.WriteLine(e.Message);
             Console.WriteLine("Error: you entered amount less than zero.");
             return accBal;
         }

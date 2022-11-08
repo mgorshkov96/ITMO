@@ -1,6 +1,8 @@
 ﻿namespace ITMO.CourceCsharp.Lab4.Exercise3
 {
     using System;
+    using System.Diagnostics;
+
     class Utils
     {
         //
@@ -51,12 +53,13 @@
                     }
                 }
             }
-            catch (Exception)
+            catch (OverflowException e)
             {
                 // If something goes wrong in the calculation,
                 // catch it here. All exceptions
                 // are handled the same way: set the result
                 // to zero and return false.
+                Trace.WriteLine(e.Message);
 
                 f = 0;
                 ok = false;

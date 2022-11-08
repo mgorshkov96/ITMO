@@ -53,9 +53,9 @@ namespace ITMO.CourceCsharp.Lab3.Exercise2
 
                 Console.WriteLine("{0} {1}", dayNum, monthName);
             }
-            catch (Exception caught)
+            catch (ArgumentOutOfRangeException ex)
             {
-                Console.WriteLine(caught);
+                Console.WriteLine(ex.Message);
             }
         }
         // Don't modify anything below here

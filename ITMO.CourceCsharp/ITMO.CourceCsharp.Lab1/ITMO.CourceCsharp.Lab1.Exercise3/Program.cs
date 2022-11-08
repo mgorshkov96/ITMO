@@ -21,13 +21,10 @@ namespace ITMO.CourceCsharp.Lab1.Exercise3
                 Console.WriteLine("The result of dividing {0} by {1} is {2}", i, j, k);
             }
 
-            catch (Exception e)
+            catch (DivideByZeroException ex)
             {
-                Console.WriteLine("An exception was thrown: {0}", e);
+                Console.WriteLine(ex.Message);
             }
-
-            Console.ReadKey();
-
         }
     }
 }

@@ -7,10 +7,12 @@ namespace ITMO.CourceCsharp.Lab9.Exercise1
     {
         public static void Main(string[] args)
         {
-            try {
+            try 
+            {
                 InnerMain(args);
             }
-            catch (System.Exception caught) {
+            catch (Exception caught) //Exception прописал преподователь, что именно он хотел словить не очень понимаю. Надо уточнить.
+            {
                 Console.WriteLine(caught);
             }
         }

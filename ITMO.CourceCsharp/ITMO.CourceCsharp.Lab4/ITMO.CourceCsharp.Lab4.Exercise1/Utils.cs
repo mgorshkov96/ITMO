@@ -1,6 +1,5 @@
 ﻿namespace ITMO.CourceCsharp.Lab4.Exercise1
 {
-    using System;
     class Utils
     {
         //
