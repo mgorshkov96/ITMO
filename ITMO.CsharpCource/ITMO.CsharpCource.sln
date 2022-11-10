@@ -3,77 +3,77 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ITMO.CsharpCource.Lab01", "ITMO.CsharpCource.Lab01", "{6ECC5716-02AD-44B1-8C4F-C1F86B50B197}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ITMO.CsharpCourse.Lab01", "ITMO.CsharpCourse.Lab01", "{6ECC5716-02AD-44B1-8C4F-C1F86B50B197}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ITMO.CsharpCource.Lab02", "ITMO.CsharpCource.Lab02", "{3ED5916E-2ADC-4B65-A095-3FDEF129D104}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ITMO.CsharpCourse.Lab02", "ITMO.CsharpCourse.Lab02", "{3ED5916E-2ADC-4B65-A095-3FDEF129D104}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ITMO.CsharpCource.Lab03", "ITMO.CsharpCource.Lab03", "{6D07705A-E9F0-487E-B056-A6988947B1CB}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ITMO.CsharpCourse.Lab03", "ITMO.CsharpCourse.Lab03", "{6D07705A-E9F0-487E-B056-A6988947B1CB}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ITMO.CsharpCource.Lab04", "ITMO.CsharpCource.Lab04", "{DB0F7282-5F73-4C99-853D-B7C0C7F2A352}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ITMO.CsharpCourse.Lab04", "ITMO.CsharpCourse.Lab04", "{DB0F7282-5F73-4C99-853D-B7C0C7F2A352}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ITMO.CsharpCource.Lab09", "ITMO.CsharpCource.Lab09", "{2AF63853-1FB6-48CD-90C6-97F05B317A58}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ITMO.CsharpCourse.Lab09", "ITMO.CsharpCourse.Lab09", "{2AF63853-1FB6-48CD-90C6-97F05B317A58}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ITMO.CsharpCource.Lab10", "ITMO.CsharpCource.Lab10", "{13D487E4-41AE-4CED-BA14-9D8E2D93427A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ITMO.CsharpCourse.Lab10", "ITMO.CsharpCourse.Lab10", "{13D487E4-41AE-4CED-BA14-9D8E2D93427A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ITMO.CsharpCource.Lab05", "ITMO.CsharpCource.Lab05", "{0F231D81-2F30-406D-90CA-8A0C43CC0B02}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ITMO.CsharpCourse.Lab05", "ITMO.CsharpCourse.Lab05", "{0F231D81-2F30-406D-90CA-8A0C43CC0B02}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ITMO.CsharpCource.Lab06", "ITMO.CsharpCource.Lab06", "{387BEB71-9078-493E-940D-6982E44DE8C9}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ITMO.CsharpCourse.Lab06", "ITMO.CsharpCourse.Lab06", "{387BEB71-9078-493E-940D-6982E44DE8C9}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ITMO.CsharpCource.Lab07", "ITMO.CsharpCource.Lab07", "{331E655F-BE08-40EE-804E-11B9737A0040}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ITMO.CsharpCourse.Lab07", "ITMO.CsharpCourse.Lab07", "{331E655F-BE08-40EE-804E-11B9737A0040}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ITMO.CsharpCource.Lab08", "ITMO.CsharpCource.Lab08", "{ED0E2CA5-6CE4-4A52-A7B8-92A9E871A135}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ITMO.CsharpCourse.Lab08", "ITMO.CsharpCourse.Lab08", "{ED0E2CA5-6CE4-4A52-A7B8-92A9E871A135}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CsharpCource.Lab01.Exercise1", "ITMO.CsharpCource.Lab01\ITMO.CsharpCource.Lab01.Exercise1\ITMO.CsharpCource.Lab01.Exercise1.csproj", "{3498B8B4-4045-48B3-9F6E-D5291B45A44A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ITMO.CsharpCourse.Lab12", "ITMO.CsharpCourse.Lab12", "{824C68D0-BB56-4FD4-8B59-4D39D6313915}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CsharpCource.Lab01.Exercise3", "ITMO.CsharpCource.Lab01\ITMO.CsharpCource.Lab01.Exercise3\ITMO.CsharpCource.Lab01.Exercise3.csproj", "{81C83CF6-689B-42CB-BB86-8D602E589EDC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CsharpCourse.Lab01.Exercise1", "ITMO.CsharpCourse.Lab01\ITMO.CsharpCourse.Lab01.Exercise1\ITMO.CsharpCourse.Lab01.Exercise1.csproj", "{3498B8B4-4045-48B3-9F6E-D5291B45A44A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CsharpCource.Lab02.Exercise1", "ITMO.CsharpCource.Lab02\ITMO.CsharpCource.Lab02.Exercise1\ITMO.CsharpCource.Lab02.Exercise1.csproj", "{520995CC-7B8D-4FE5-9ED8-817565EA6BEB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CsharpCourse.Lab01.Exercise3", "ITMO.CsharpCourse.Lab01\ITMO.CsharpCourse.Lab01.Exercise3\ITMO.CsharpCourse.Lab01.Exercise3.csproj", "{81C83CF6-689B-42CB-BB86-8D602E589EDC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CsharpCource.Lab02.Exercise2", "ITMO.CsharpCource.Lab02\ITMO.CsharpCource.Lab02.Exercise2\ITMO.CsharpCource.Lab02.Exercise2.csproj", "{5F471A08-AC9A-496C-AB54-CBB91303F587}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CsharpCourse.Lab02.Exercise1", "ITMO.CsharpCourse.Lab02\ITMO.CsharpCourse.Lab02.Exercise1\ITMO.CsharpCourse.Lab02.Exercise1.csproj", "{520995CC-7B8D-4FE5-9ED8-817565EA6BEB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CsharpCource.Lab02.Exercise3", "ITMO.CsharpCource.Lab02\ITMO.CsharpCource.Lab02.Exercise3\ITMO.CsharpCource.Lab02.Exercise3.csproj", "{FF501693-2FC5-4144-A262-2B775046E11D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CsharpCourse.Lab02.Exercise2", "ITMO.CsharpCourse.Lab02\ITMO.CsharpCourse.Lab02.Exercise2\ITMO.CsharpCourse.Lab02.Exercise2.csproj", "{5F471A08-AC9A-496C-AB54-CBB91303F587}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CsharpCource.Lab03.Exercise1", "ITMO.CsharpCource.Lab03\ITMO.CsharpCource.Lab03.Exercise1\ITMO.CsharpCource.Lab03.Exercise1.csproj", "{4C45763E-1C9F-4F41-B42D-F5CC0C0F4F86}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CsharpCourse.Lab02.Exercise3", "ITMO.CsharpCourse.Lab02\ITMO.CsharpCourse.Lab02.Exercise3\ITMO.CsharpCourse.Lab02.Exercise3.csproj", "{FF501693-2FC5-4144-A262-2B775046E11D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CsharpCource.Lab03.Exercise2", "ITMO.CsharpCource.Lab03\ITMO.CsharpCource.Lab03.Exercise2\ITMO.CsharpCource.Lab03.Exercise2.csproj", "{AD41B595-9A9D-44C2-B7BE-BF5BDDFA48DB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CsharpCourse.Lab03.Exercise1", "ITMO.CsharpCourse.Lab03\ITMO.CsharpCourse.Lab03.Exercise1\ITMO.CsharpCourse.Lab03.Exercise1.csproj", "{4C45763E-1C9F-4F41-B42D-F5CC0C0F4F86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CsharpCource.Lab04.Exercise1", "ITMO.CsharpCource.Lab04\ITMO.CsharpCource.Lab04.Exercise1\ITMO.CsharpCource.Lab04.Exercise1.csproj", "{4F7F871E-B446-498E-A2FD-60FC0E513E97}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CsharpCourse.Lab03.Exercise2", "ITMO.CsharpCourse.Lab03\ITMO.CsharpCourse.Lab03.Exercise2\ITMO.CsharpCourse.Lab03.Exercise2.csproj", "{AD41B595-9A9D-44C2-B7BE-BF5BDDFA48DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CsharpCource.Lab04.Exercise2", "ITMO.CsharpCource.Lab04\ITMO.CsharpCource.Lab04.Exercise2\ITMO.CsharpCource.Lab04.Exercise2.csproj", "{42CAE984-5CB9-4B47-9086-22545C5553E4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CsharpCourse.Lab04.Exercise1", "ITMO.CsharpCourse.Lab04\ITMO.CsharpCourse.Lab04.Exercise1\ITMO.CsharpCourse.Lab04.Exercise1.csproj", "{4F7F871E-B446-498E-A2FD-60FC0E513E97}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CsharpCource.Lab04.Exercise3", "ITMO.CsharpCource.Lab04\ITMO.CsharpCource.Lab04.Exercise3\ITMO.CsharpCource.Lab04.Exercise3.csproj", "{DBCD996E-2B1E-48E1-AC87-C36763D36F29}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CsharpCourse.Lab04.Exercise2", "ITMO.CsharpCourse.Lab04\ITMO.CsharpCourse.Lab04.Exercise2\ITMO.CsharpCourse.Lab04.Exercise2.csproj", "{42CAE984-5CB9-4B47-9086-22545C5553E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CsharpCource.Lab05.Exercise1", "ITMO.CsharpCource.Lab05\ITMO.CsharpCource.Lab05.Exercise1\ITMO.CsharpCource.Lab05.Exercise1.csproj", "{5B60A309-2B9A-46AC-9532-7567FCE689C9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CsharpCourse.Lab04.Exercise3", "ITMO.CsharpCourse.Lab04\ITMO.CsharpCourse.Lab04.Exercise3\ITMO.CsharpCourse.Lab04.Exercise3.csproj", "{DBCD996E-2B1E-48E1-AC87-C36763D36F29}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CsharpCource.Lab06.Exercise1", "ITMO.CsharpCource.Lab06\ITMO.CsharpCource.Lab06.Exercise1\ITMO.CsharpCource.Lab06.Exercise1.csproj", "{CB93F560-A454-4FAE-B51E-E9E1EFB5182D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CsharpCourse.Lab05.Exercise1", "ITMO.CsharpCourse.Lab05\ITMO.CsharpCourse.Lab05.Exercise1\ITMO.CsharpCourse.Lab05.Exercise1.csproj", "{5B60A309-2B9A-46AC-9532-7567FCE689C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CsharpCource.Lab06.Exercise2", "ITMO.CsharpCource.Lab06\ITMO.CsharpCource.Lab06.Exercise2\ITMO.CsharpCource.Lab06.Exercise2.csproj", "{4C0DA1C8-7BFC-4A79-9FAB-702C8520F3FA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CsharpCourse.Lab06.Exercise1", "ITMO.CsharpCourse.Lab06\ITMO.CsharpCourse.Lab06.Exercise1\ITMO.CsharpCourse.Lab06.Exercise1.csproj", "{CB93F560-A454-4FAE-B51E-E9E1EFB5182D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CsharpCource.Lab06.Exercise3", "ITMO.CsharpCource.Lab06\ITMO.CsharpCource.Lab06.Exercise3\ITMO.CsharpCource.Lab06.Exercise3.csproj", "{36987A58-298B-4833-A9D9-5244AAE3DDC1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CsharpCourse.Lab06.Exercise2", "ITMO.CsharpCourse.Lab06\ITMO.CsharpCourse.Lab06.Exercise2\ITMO.CsharpCourse.Lab06.Exercise2.csproj", "{4C0DA1C8-7BFC-4A79-9FAB-702C8520F3FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CsharpCource.Lab07.Exercise1", "ITMO.CsharpCource.Lab07\ITMO.CsharpCource.Lab07.Exercise1\ITMO.CsharpCource.Lab07.Exercise1.csproj", "{EBD25A66-5C40-4EF5-877D-485264EA268F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CsharpCourse.Lab06.Exercise3", "ITMO.CsharpCourse.Lab06\ITMO.CsharpCourse.Lab06.Exercise3\ITMO.CsharpCourse.Lab06.Exercise3.csproj", "{36987A58-298B-4833-A9D9-5244AAE3DDC1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CsharpCource.Lab07.Exercise2", "ITMO.CsharpCource.Lab07\ITMO.CsharpCource.Lab07.Exercise2\ITMO.CsharpCource.Lab07.Exercise2.csproj", "{8E662510-A69A-4C97-B63A-57C775C8D6CD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CsharpCourse.Lab07.Exercise1", "ITMO.CsharpCourse.Lab07\ITMO.CsharpCourse.Lab07.Exercise1\ITMO.CsharpCourse.Lab07.Exercise1.csproj", "{EBD25A66-5C40-4EF5-877D-485264EA268F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CsharpCource.Lab08.Exercise1", "ITMO.CsharpCource.Lab08\ITMO.CsharpCource.Lab08.Exercise1\ITMO.CsharpCource.Lab08.Exercise1.csproj", "{305F5196-6B07-4A88-8952-F5FB2446F2E7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CsharpCourse.Lab07.Exercise2", "ITMO.CsharpCourse.Lab07\ITMO.CsharpCourse.Lab07.Exercise2\ITMO.CsharpCourse.Lab07.Exercise2.csproj", "{8E662510-A69A-4C97-B63A-57C775C8D6CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CsharpCource.Lab08.Exercise2", "ITMO.CsharpCource.Lab08\ITMO.CsharpCource.Lab08.Exercise2\ITMO.CsharpCource.Lab08.Exercise2.csproj", "{00AC4725-BCB1-4E8E-BDEA-F1D2E52B3390}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CsharpCourse.Lab08.Exercise1", "ITMO.CsharpCourse.Lab08\ITMO.CsharpCourse.Lab08.Exercise1\ITMO.CsharpCourse.Lab08.Exercise1.csproj", "{305F5196-6B07-4A88-8952-F5FB2446F2E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CsharpCource.Lab09.Exercise1", "ITMO.CsharpCource.Lab09\ITMO.CsharpCource.Lab09.Exercise1\ITMO.CsharpCource.Lab09.Exercise1.csproj", "{95B4463D-4E08-4841-A7CB-BE24B4F89E17}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CsharpCourse.Lab08.Exercise2", "ITMO.CsharpCourse.Lab08\ITMO.CsharpCourse.Lab08.Exercise2\ITMO.CsharpCourse.Lab08.Exercise2.csproj", "{00AC4725-BCB1-4E8E-BDEA-F1D2E52B3390}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CsharpCource.Lab10.Exercise1", "ITMO.CsharpCource.Lab10\ITMO.CsharpCource.Lab10.Exercise1\ITMO.CsharpCource.Lab10.Exercise1.csproj", "{53E0B48A-B542-4951-ACE3-2B80E98F75B0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CsharpCourse.Lab09.Exercise1", "ITMO.CsharpCourse.Lab09\ITMO.CsharpCourse.Lab09.Exercise1\ITMO.CsharpCourse.Lab09.Exercise1.csproj", "{95B4463D-4E08-4841-A7CB-BE24B4F89E17}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CsharpCource.Lab10.Exercise2", "ITMO.CsharpCource.Lab10\ITMO.CsharpCource.Lab10.Exercise2\ITMO.CsharpCource.Lab10.Exercise2.csproj", "{1D6DD738-3A1C-462F-8E23-43772DB56B6E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CsharpCourse.Lab10.Exercise1", "ITMO.CsharpCourse.Lab10\ITMO.CsharpCourse.Lab10.Exercise1\ITMO.CsharpCourse.Lab10.Exercise1.csproj", "{53E0B48A-B542-4951-ACE3-2B80E98F75B0}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ITMO.CsharpCource.Lab12", "ITMO.CsharpCource.Lab12", "{824C68D0-BB56-4FD4-8B59-4D39D6313915}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CsharpCourse.Lab10.Exercise2", "ITMO.CsharpCourse.Lab10\ITMO.CsharpCourse.Lab10.Exercise2\ITMO.CsharpCourse.Lab10.Exercise2.csproj", "{1D6DD738-3A1C-462F-8E23-43772DB56B6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CsharpCource.Lab12.Exercise1.Bank", "ITMO.CsharpCource.Lab12\ITMO.CsharpCource.Lab12.Exercise1.Bank\ITMO.CsharpCource.Lab12.Exercise1.Bank.csproj", "{3289A38D-D296-4CFF-AD5D-6B0580252D16}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CsharpCourse.Lab12.Exercise1.Bank", "ITMO.CsharpCourse.Lab12\ITMO.CsharpCourse.Lab12.Exercise1.Bank\ITMO.CsharpCourse.Lab12.Exercise1.Bank.csproj", "{3289A38D-D296-4CFF-AD5D-6B0580252D16}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CsharpCource.Lab12.Exercise1.CreateAccount", "ITMO.CsharpCource.Lab12\ITMO.CsharpCource.Lab12.Exercise1.CreateAccount\ITMO.CsharpCource.Lab12.Exercise1.CreateAccount.csproj", "{D802C5A8-A900-408F-8EEE-E30183F695E3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CsharpCourse.Lab12.Exercise1.CreateAccount", "ITMO.CsharpCourse.Lab12\ITMO.CsharpCourse.Lab12.Exercise1.CreateAccount\ITMO.CsharpCourse.Lab12.Exercise1.CreateAccount.csproj", "{D802C5A8-A900-408F-8EEE-E30183F695E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CsharpCource.Lab12.Exercise2.Bank", "ITMO.CsharpCource.Lab12\ITMO.CsharpCource.Lab12.Exercise2.Bank\ITMO.CsharpCource.Lab12.Exercise2.Bank.csproj", "{82205B05-678D-4EAD-8EB1-CC8AC191BE2A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CsharpCourse.Lab12.Exercise2.Bank", "ITMO.CsharpCourse.Lab12\ITMO.CsharpCourse.Lab12.Exercise2.Bank\ITMO.CsharpCourse.Lab12.Exercise2.Bank.csproj", "{82205B05-678D-4EAD-8EB1-CC8AC191BE2A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CsharpCource.Lab12.Exercise2.CreateAccount", "ITMO.CsharpCource.Lab12\ITMO.CsharpCource.Lab12.Exercise2.CreateAccount\ITMO.CsharpCource.Lab12.Exercise2.CreateAccount.csproj", "{D80DF18F-86F2-4170-826B-617835311347}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CsharpCourse.Lab12.Exercise2.CreateAccount", "ITMO.CsharpCourse.Lab12\ITMO.CsharpCourse.Lab12.Exercise2.CreateAccount\ITMO.CsharpCourse.Lab12.Exercise2.CreateAccount.csproj", "{D80DF18F-86F2-4170-826B-617835311347}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
