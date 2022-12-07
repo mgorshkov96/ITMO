@@ -25,10 +25,13 @@ class CreateAccount
         // ADD CODE HERE TO GET THE NUMBER AND TYPE OF EACH ACCOUNT 
         Console.WriteLine("Account Number is {0}, Account Type is {1}", acc1.Number, acc1.Type);
         Console.WriteLine("Account Number is {0}, Account Type is {1}", acc2.Number, acc2.Type);
+        Console.WriteLine();
 
         // Print the accounts, using ToString
         Console.WriteLine("acc1 - {0}", acc1);
         Console.WriteLine("acc2 - {0}", acc2);
+
+        Console.ReadKey();
         
     }
 }
