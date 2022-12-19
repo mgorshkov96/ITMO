@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="ITMO.CsharpWinForms.Lab03.Exercise04.Library">
+      <HintPath>..\ITMO.CsharpWinForms.Lab03.Exercise04.Library\bin\Debug\net6.0-windows\ITMO.CsharpWinForms.Lab03.Exercise04.Library.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

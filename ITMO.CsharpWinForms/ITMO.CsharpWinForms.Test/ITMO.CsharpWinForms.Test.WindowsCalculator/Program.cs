@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ITMO.CsharpWinForms.Lab03.Exercise02
+namespace SimpleCalculator
 {
     internal static class Program
     {
@@ -16,7 +16,7 @@ namespace ITMO.CsharpWinForms.Lab03.Exercise02
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new CalcUI());
         }
     }
 }

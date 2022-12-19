@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ITMO.CsharpWinForms.Lab03.Exercise02
+namespace ITMO.CsharpWinForms.Lab07.Exercise03
 {
     internal static class Program
     {

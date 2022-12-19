@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{55BFD055-A05F-4549-9F17-CF8054172E6A}</ProjectGuid>
+    <ProjectGuid>{D2EAEBFF-E1EB-4811-9E4A-2A344E1784EC}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>ITMO.CsharpWinForms.Lab03.Exercise02</RootNamespace>
-    <AssemblyName>ITMO.CsharpWinForms.Lab03.Exercise02</AssemblyName>
+    <RootNamespace>ITMO.CsharpWinForms.Test.WindowsCalculator</RootNamespace>
+    <AssemblyName>ITMO.CsharpWinForms.Test.WindowsCalculator</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="ITMO.CsharpWinForms.Test.CalculatorEngine">
+      <HintPath>..\ITMO.CsharpWinForms.Test.CalculatorEngine\bin\Debug\ITMO.CsharpWinForms.Test.CalculatorEngine.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -46,22 +49,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="CalcUI.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="CalcUI.Designer.cs">
+      <DependentUpon>CalcUI.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UserControlTimer2.cs">
-      <SubType>Component</SubType>
+    <Compile Include="Сoefficients.cs">
+      <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UserControlTimer2.Designer.cs">
-      <DependentUpon>UserControlTimer2.cs</DependentUpon>
+    <Compile Include="Сoefficients.Designer.cs">
+      <DependentUpon>Сoefficients.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="CalcUI.resx">
+      <DependentUpon>CalcUI.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -72,8 +75,8 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="UserControlTimer2.resx">
-      <DependentUpon>UserControlTimer2.cs</DependentUpon>
+    <EmbeddedResource Include="Сoefficients.resx">
+      <DependentUpon>Сoefficients.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
