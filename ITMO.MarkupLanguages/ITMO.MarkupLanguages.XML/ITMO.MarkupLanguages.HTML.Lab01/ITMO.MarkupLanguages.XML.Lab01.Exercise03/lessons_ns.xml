@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<itmo:studies xmlns:itmo = "http://www.itmo.ru/xml/lessons" xmlns:lit = "http://www.allbooks.net">
+	<itmo:subject id="1">
+		<itmo:SubjectName>Технологии программирования</itmo:SubjectName>
+		<itmo:Teacher>Осипов Никита Алексеевич</itmo:Teacher>
+		<itmo:Time>18:30</itmo:Time>
+		<itmo:DateStart>26.09.2022</itmo:DateStart>
+		<itmo:DateEnd>07.10.2022</itmo:DateEnd>
+		<lit:Book>Методы программирования</lit:Book>
+	</itmo:subject>
+	
+	<itmo:subject id="2">
+		<itmo:SubjectName>Введение в базы данных</itmo:SubjectName>
+		<itmo:Teacher>Ямщиков Денис Викторович</itmo:Teacher>
+		<itmo:Time>18:30</itmo:Time>
+		<itmo:DateStart>10.10.2022</itmo:DateStart>
+		<itmo:DateEnd>20.10.2022</itmo:DateEnd>		
+		<lit:Book>SQL и реляционная теория. Как грамотно писать код на SQL</lit:Book>
+	</itmo:subject>
+	
+	<itmo:subject id="3">
+		<itmo:SubjectName>Программирование на C#</itmo:SubjectName>
+		<itmo:Teacher>Смольянинов Антон Валентинович</itmo:Teacher>
+		<itmo:Time>18:30</itmo:Time>
+		<itmo:DateStart>24.10.2022</itmo:DateStart>
+		<itmo:DateEnd>08.11.2022</itmo:DateEnd>
+		<lit:Book>Книга дракона</lit:Book>		
+	</itmo:subject>
+</itmo:studies>
