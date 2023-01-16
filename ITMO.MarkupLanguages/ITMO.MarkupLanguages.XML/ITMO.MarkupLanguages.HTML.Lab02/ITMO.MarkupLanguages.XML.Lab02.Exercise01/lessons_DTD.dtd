@@ -1,0 +1,7 @@
+<!ELEMENT studies (subject+)>
+<!ELEMENT subject (SubjectName, Teacher, Time, DateStart, DateEnd)>
+<!ELEMENT SubjectName (#PCDATA)>
+<!ELEMENT Teacher (#PCDATA)>
+<!ELEMENT Time (#PCDATA)>
+<!ELEMENT DateStart (#PCDATA)>
+<!ELEMENT DateEnd (#PCDATA)>
