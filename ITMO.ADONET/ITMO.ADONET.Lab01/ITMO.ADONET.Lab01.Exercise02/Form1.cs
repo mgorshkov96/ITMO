@@ -16,7 +16,7 @@ namespace ITMO.ADONET.Lab01.Exercise02
     {
         string testConnect = @"Provider=SQLOLEDB.1;Integrated Security=SSPI;
         Persist Security Info=False;Initial Catalog=Northwind;
-        Data Source=DESKTOP-T597S8K\SQLEXPRESS";
+        Data Source=(local)\SQLEXPRESS";
 
         public Form1()
         {

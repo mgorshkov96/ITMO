@@ -11,7 +11,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ITMO.ADONET.Lab01.Exercise05
+namespace ITMO.ADONET.Lab02.Exercise01
 {
     public partial class Form1 : Form
     {
@@ -104,6 +104,31 @@ namespace ITMO.ADONET.Lab01.Exercise05
                     MessageBox.Show("providerName = " + cs.ProviderName);
                     MessageBox.Show("connectionString = " + cs.ConnectionString);
                 }
+            }
+        }
+
+        private void btnCount_Click(object sender, EventArgs e)
+        {
+            if (connection.State == ConnectionState.Open)
+            {
+                OleDbCommand command = new OleDbCommand();
+                
+                // Устанавливаем свойству Connection требуемый объект
+                // соединения.
+                command.Connection = connection;
+
+                // в свойстве CommandText пишем SQL запрос
+                command.CommandText = "SELECT COUNT(*) FROM Products";
+
+                // ExecuteScalar - выполнение запроса. Возвращает 1 значение
+                // типа object, поэтому явно приводим к int
+                int number = (int)command.ExecuteScalar();
+
+                lblCount.Text = number.ToString();
+            }
+            else
+            {
+                MessageBox.Show("Отсутствует подключение к базе данных");
             }
         }
     }
