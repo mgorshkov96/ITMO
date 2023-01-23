@@ -43,14 +43,14 @@ namespace ITMO.ADONET.Lab02.Exercise03
         }
 
         private void connection_StateChange(object sender, System.Data.StateChangeEventArgs e)
-        {
+        {           
             menuConnectDB.Enabled = (e.CurrentState == ConnectionState.Closed);
 
             menuDisconnectDB.Enabled = (e.CurrentState == ConnectionState.Open);
         }
 
         private void menuConnectDB_Click(object sender, EventArgs e)
-        {
+        {           
             try
             {
                 // if особо не нужен, т.к. мы обрабатываем данный сценарий 
