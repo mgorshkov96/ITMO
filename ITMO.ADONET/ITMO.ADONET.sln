@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.ADONET.Lab04.Exercise0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.ADONET.Lab04.Exercise06", "ITMO.ADONET.Lab04\ITMO.ADONET.Lab04.Exercise06\ITMO.ADONET.Lab04.Exercise06.csproj", "{3C42121A-421F-4900-ACB9-A7EE839F181E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.ADONET.Test", "ITMO.ADONET.Test\ITMO.ADONET.Test.csproj", "{5CF16143-3A98-4EF8-9286-B7A2BD97C5BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{3C42121A-421F-4900-ACB9-A7EE839F181E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C42121A-421F-4900-ACB9-A7EE839F181E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C42121A-421F-4900-ACB9-A7EE839F181E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CF16143-3A98-4EF8-9286-B7A2BD97C5BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CF16143-3A98-4EF8-9286-B7A2BD97C5BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CF16143-3A98-4EF8-9286-B7A2BD97C5BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CF16143-3A98-4EF8-9286-B7A2BD97C5BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
