@@ -74,7 +74,18 @@ namespace ITMO.ADONET.Test
                     OrdersDataGrid.ItemsSource = OrdersDataView;
                     OrdersDataView.RowFilter = "CustomerID=''";
                 }
-            }            
+            }  
+            catch (SqlException SqlEr)
+            {
+                StringBuilder message = new StringBuilder();
+
+                foreach(SqlError error in SqlEr.Errors)
+                {
+                    message.AppendLine("Ошибка " + error.Number + "\n" + error.Message + "\n");
+                }
+
+                MessageBox.Show(message.ToString());
+            }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
@@ -117,9 +128,16 @@ namespace ITMO.ADONET.Test
                 OrdersAdapter.Fill(NorthwindDataset.Tables["Orders"]);
                 MessageBox.Show("Данные были синхронизированны");                
             }
-            catch(Exception ex)
+            catch (SqlException SqlEr)
             {
-                MessageBox.Show(ex.Message);
+                StringBuilder message = new StringBuilder();
+
+                foreach (SqlError error in SqlEr.Errors)
+                {
+                    message.AppendLine("Ошибка " + error.Number + "\n" + error.Message + "\n");
+                }
+
+                MessageBox.Show(message.ToString(), "Ошибка синхронизации с базой данных");
             }
         }
 
