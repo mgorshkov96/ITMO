@@ -265,6 +265,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.OriginalDRVTextBox.Location = new System.Drawing.Point(79, 337);
             this.OriginalDRVTextBox.Name = "OriginalDRVTextBox";
+            this.OriginalDRVTextBox.ReadOnly = true;
             this.OriginalDRVTextBox.Size = new System.Drawing.Size(709, 20);
             this.OriginalDRVTextBox.TabIndex = 8;
             // 

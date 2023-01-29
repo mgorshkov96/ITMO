@@ -3,10 +3,139 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:ITMO.ADONET.Test"
+        xmlns:local="clr-namespace:ITMO.ADONET.Test"        
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="MainWindow" Height="700" Width="1200" MinWidth="1100" MinHeight="600">
+    
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Width" Value="150"/>
+            <Setter Property="Height" Value="30"/>
+            <Setter Property="Margin" Value="0,0,0,5"/>
+        </Style>
 
+        <Style TargetType="TextBox">
+            <Setter Property="Height" Value="25"/>
+        </Style>
+
+        <Style x:Key="Header" TargetType="Label">
+            <Setter Property="Background" Value="Green"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Margin" Value="0,0,0,3"/>
+        </Style>
+    </Window.Resources>
+    
+    <Grid Margin="5,5,5,5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Label Style="{StaticResource Header}" Grid.Row="0">Клиенты</Label>
+
+        <Grid Grid.Row="1" Margin="0,0,0,5" Background="LightGray">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="60"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Label Grid.Row="0" Content="Поиск:" Margin="0,2,0,0"/>
+            <Label Grid.Row="1" Content="Фильтр:"/>
+            <TextBox x:Name="SortTextBox" Grid.Row="0" Grid.Column="1" Margin="0,5,5,2" TextChanged="SortTextBox_TextChanged"/>
+            <TextBox x:Name="FilterTextBox" Grid.Row="1" Grid.Column="1" Margin="0,2,5,5" TextChanged="FilterTextBox_TextChanged"/>
+        </Grid>
+
+        <DataGrid x:Name="CustomersDataGrid"  Grid.Row="2" Margin="0,0,0,5"
+                  AutoGenerateColumns="False" 
+                  SelectionChanged="CustomersDataGrid_SelectionChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Width="60" Binding="{Binding CustomerID}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Компания" Width="*" Binding="{Binding CompanyName}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Имя" Width="*" Binding="{Binding ContactName}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Должность" Width="*" Binding="{Binding ContactTitle}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Телефон" Width="*" Binding="{Binding Phone}"></DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <Grid Grid.Row="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Grid Margin="0,0,2,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Label Style="{StaticResource Header}">Заказы</Label>
+
+                <DataGrid x:Name="OrdersDataGrid" Grid.Row="4" AutoGenerateColumns="False">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="ID заказа" Width="60" Binding="{Binding OrderID}"></DataGridTextColumn>
+                        <DataGridTextColumn Header="ID клиента" Width="70" Binding="{Binding CustomerID}"></DataGridTextColumn>
+                        <DataGridTextColumn Header="Дата заказа" Width="*" Binding="{Binding OrderDate}"></DataGridTextColumn>
+                        <DataGridTextColumn Header="Дата доставки" Width="*" Binding="{Binding ShippedDate}"></DataGridTextColumn>
+                        <DataGridTextColumn Header="Адрес заказа" Width="*" Binding="{Binding ShipAddress}"></DataGridTextColumn>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </Grid>
+
+            <Grid Grid.Column="1" Margin="2,0,0,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="7*"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+
+                <Label Grid.ColumnSpan="2" Style="{StaticResource Header}">Редактирование клиентов</Label>
+
+                <GroupBox Grid.Row="1" BorderBrush="Black">
+                    <Grid Margin="10">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="130"/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+
+                        <Label VerticalAlignment="Center">Текущее значение:</Label>
+                        <Label Grid.Row="1" VerticalAlignment="Center">Начальное значение:</Label>
+                        <Label Grid.Row="2" VerticalAlignment="Center">Статус ячейки:</Label>
+
+                        <TextBox x:Name="currentCellTextBox" Grid.Column="1"/>
+                        <TextBox x:Name="originalCellTextBox" Grid.Column="1" Grid.Row="1"/>
+                        <TextBox x:Name="statusCellTextBox" Grid.Column="1" Grid.Row="2"/>
+
+                        <Button Grid.Row="3" Grid.ColumnSpan="2">Обновить значение</Button>
+                    </Grid>
+
+                </GroupBox>
+
+                <StackPanel Grid.Row="1" Grid.Column="1" VerticalAlignment="Center">
+                    <Button>Добавить строку</Button>
+                    <Button x:Name="DeleteButton" Click="DeleteButton_Click">Удалить строку</Button>
+                    <Button x:Name="RefreshButton" Click="RefreshButton_Click">Обновить таблицу</Button>
+                </StackPanel>
+            </Grid>
+        </Grid>
     </Grid>
 </Window>
