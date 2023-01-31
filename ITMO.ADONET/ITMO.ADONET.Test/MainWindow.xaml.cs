@@ -24,8 +24,7 @@ namespace ITMO.ADONET.Test
     /// </summary>
     public partial class MainWindow : Window
     {
-        private SqlConnection NorthwindConnection = new 
-            SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\mgors\Desktop\ITMO\ITMO.ADONET\ITMO.ADONET.Test\Data\NorthwndData.mdf;Integrated Security=True");
+        private SqlConnection NorthwindConnection;
 
         private DataSet NorthwindDataset = new DataSet("Northwind");
 
@@ -38,16 +37,18 @@ namespace ITMO.ADONET.Test
         private SqlDataAdapter CustomersAdapter;
         private SqlDataAdapter OrdersAdapter;
 
-        public MainWindow()
+        public MainWindow(string connectionString)
         {
             InitializeComponent();
-            CreateDataset();
+            CreateDataset(connectionString);
         }
 
-        public void CreateDataset()
+        public void CreateDataset(string connectionString)
         {
             try
-            {                
+            {
+                NorthwindConnection = new SqlConnection(connectionString);
+
                 CustomersAdapter = new SqlDataAdapter("SELECT * FROM Customers", NorthwindConnection);
                 OrdersAdapter = new SqlDataAdapter("SELECT * FROM Orders", NorthwindConnection);
 
@@ -244,5 +245,37 @@ namespace ITMO.ADONET.Test
                 MessageBox.Show(ex.Message);                 
             }                      
         }
+
+        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            CustomersDataView.RowFilter = null;
+            int customersLength = CustomersDataView.Count;
+            CustomersDataView.RowStateFilter = DataViewRowState.Unchanged;
+            int customersUnchangedLength = CustomersDataView.Count;
+            CustomersDataView.RowStateFilter = DataViewRowState.CurrentRows;
+
+            OrdersDataView.RowFilter = null;
+            int ordersLength = OrdersDataView.Count;
+            OrdersDataView.RowStateFilter = DataViewRowState.Unchanged;
+            int ordersUnchangedLength = OrdersDataView.Count;
+            OrdersDataView.RowStateFilter = DataViewRowState.CurrentRows;
+            OrdersDataView.RowFilter = "CustomerID=''";
+
+
+            if (customersLength != customersUnchangedLength || ordersLength != ordersUnchangedLength)
+            {
+                string msg = "Данные не синхронизированны. Закрыть без синхронизации?";
+                MessageBoxResult result =
+                  MessageBox.Show(
+                    msg,
+                    "Предупреждение",
+                    MessageBoxButton.YesNo,
+                    MessageBoxImage.Warning);
+                if (result == MessageBoxResult.No)
+                {                    
+                    e.Cancel = true;
+                }
+            }            
+        }             
     }
 }
