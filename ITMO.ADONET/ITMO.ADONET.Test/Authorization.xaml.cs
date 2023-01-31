@@ -38,7 +38,7 @@ namespace ITMO.ADONET.Test
         {
             string connectionString =
                 @"Data Source = (LocalDB)\MSSQLLocalDB; AttachDbFilename = " + path + "; User ID = " + 
-                login + "; Password = " + password;           
+                login + "; Password = " + password;            
 
             return connectionString;
         }
