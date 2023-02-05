@@ -15,8 +15,8 @@ namespace ITMO.ASPNET.WebForms.RSVP
         public DateTime Rdata { get; set; }
 
         public GuestResponse() { }
-
-        public GuestResponse(string name, string email, string phone, bool? willattend)
+        public GuestResponse(string name, string email, string phone,
+        bool? willattend)
         {
             Name = name;
             Email = email;
