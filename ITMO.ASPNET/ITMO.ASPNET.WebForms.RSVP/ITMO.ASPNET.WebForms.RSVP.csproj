@@ -88,7 +88,7 @@
     <Compile Include="Start.aspx.designer.cs">
       <DependentUpon>Start.aspx</DependentUpon>
     </Compile>
-    <Content Include="App_Code\ResponseRepository.cs" />
+    <Compile Include="App_Code\ResponseRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

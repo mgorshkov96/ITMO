@@ -3,15 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace ITMO.ASPNET.WebForms.RSVP.App_Code
+namespace ITMO.ASPNET.WebForms.RSVP
 {
     public class ResponseRepository
     {
-        private static ResponseRepository repository = new
-            ResponseRepository();
+        private static ResponseRepository repository = new ResponseRepository();
 
-        private List<GuestResponse> responses = new
-            List<GuestResponse>();
+        private List<GuestResponse> responses = new List<GuestResponse>();
 
         public static ResponseRepository GetRepository()
         {
