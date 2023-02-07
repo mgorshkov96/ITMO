@@ -38,6 +38,21 @@
                     %>
                 </tbody>
             </table>
+
+            <h3>Участники без доклада: </h3>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Имя</th>
+                        <th>Email</th>
+                        <th>Телефон</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <%= GetNoShowHtml() %>
+                </tbody>
+            </table>
         </div>
     </form>
 </body>
