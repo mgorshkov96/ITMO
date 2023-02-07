@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ITMO.ADONET.Lab09.Exercise01.CustomerManager
+namespace ITMO.ADONET.Lab09.Exercise03
 {
     internal static class Program
     {
@@ -16,7 +16,7 @@ namespace ITMO.ADONET.Lab09.Exercise01.CustomerManager
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new CustomerViewer());
+            Application.Run(new CourseViewer());
         }
     }
 }

@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ITMO.ADONET.Lab09.Exercise01.Properties
+namespace ITMO.ADONET.Lab09.Exercise03.Properties
 {
 
 

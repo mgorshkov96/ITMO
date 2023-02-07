@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ITMO.ADONET.Lab09.Exercise01.Properties
+namespace ITMO.ADONET.Lab09.Exercise03.Properties
 {
 
 
@@ -44,7 +44,7 @@ namespace ITMO.ADONET.Lab09.Exercise01.Properties
             {
                 if ((resourceMan == null))
                 {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("ITMO.ADONET.Lab09.Exercise01.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("ITMO.ADONET.Lab09.Exercise03.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("ITMO.ADONET.Lab09.Exercise01")]
+[assembly: AssemblyTitle("ITMO.ADONET.Lab09.Exercise03")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ITMO.ADONET.Lab09.Exercise01")]
+[assembly: AssemblyProduct("ITMO.ADONET.Lab09.Exercise03")]
 [assembly: AssemblyCopyright("Copyright ©  2023")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("f528d06a-6047-46a3-a350-842ce565b3a3")]
+[assembly: Guid("e40da6c0-4d10-4d1b-b4a7-114f4144e9e6")]
 
 // Version information for an assembly consists of the following four values:
 //
