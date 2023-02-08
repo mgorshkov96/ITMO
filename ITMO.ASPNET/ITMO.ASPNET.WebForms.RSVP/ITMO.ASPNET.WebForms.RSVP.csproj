@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="About.aspx" />
     <Content Include="Reg.aspx" />
     <Content Include="seeyouthere.html" />
     <Content Include="sorryyoucantcome.html" />
@@ -76,6 +77,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Code\GuestResponse.cs" />
     <Compile Include="Reg.aspx.cs">
       <DependentUpon>Reg.aspx</DependentUpon>
@@ -83,6 +91,13 @@
     </Compile>
     <Compile Include="Reg.aspx.designer.cs">
       <DependentUpon>Reg.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site.master.cs">
+      <DependentUpon>Site.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.master.designer.cs">
+      <DependentUpon>Site.master</DependentUpon>
     </Compile>
     <Compile Include="Start.aspx.cs">
       <DependentUpon>Start.aspx</DependentUpon>
@@ -103,6 +118,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <Content Include="Site.master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

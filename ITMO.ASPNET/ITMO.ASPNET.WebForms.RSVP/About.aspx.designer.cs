@@ -11,7 +11,7 @@ namespace ITMO.ASPNET.WebForms.RSVP
 {
 
 
-    public partial class Start
+    public partial class About
     {
     }
 }
