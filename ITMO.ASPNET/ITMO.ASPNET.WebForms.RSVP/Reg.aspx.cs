@@ -13,6 +13,12 @@ namespace ITMO.ASPNET.WebForms.RSVP
         {            
             if (IsPostBack)
             {
+                Page.Validate();
+                if (!Page.IsValid)
+                {
+                    return;
+                }
+                
                 GuestResponse rsvp= new GuestResponse(name.Text, 
                     email.Text, phone.Text, CheckBoxYN.Checked);
                
