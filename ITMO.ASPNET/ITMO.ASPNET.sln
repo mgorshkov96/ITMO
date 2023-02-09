@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.ASPNET.WebForms.RSVP", "ITMO.ASPNET.WebForms.RSVP\ITMO.ASPNET.WebForms.RSVP.csproj", "{070A1526-C664-4FE0-A716-7AF9C818A36C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.ASPNET.MVC.WebMVCR1", "ITMO.ASPNET.MVC.WebMVCR1\ITMO.ASPNET.MVC.WebMVCR1.csproj", "{637D8079-71D2-4B74-B3B1-507687DC5D68}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{070A1526-C664-4FE0-A716-7AF9C818A36C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{070A1526-C664-4FE0-A716-7AF9C818A36C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{070A1526-C664-4FE0-A716-7AF9C818A36C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{637D8079-71D2-4B74-B3B1-507687DC5D68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{637D8079-71D2-4B74-B3B1-507687DC5D68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{637D8079-71D2-4B74-B3B1-507687DC5D68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{637D8079-71D2-4B74-B3B1-507687DC5D68}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
