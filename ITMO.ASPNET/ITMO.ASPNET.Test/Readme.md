@@ -1,5 +1,5 @@
-﻿#Key Decision Document
-##Model (EF -MSSQL)
+﻿# Key Decision Document
+## Model (EF -MSSQL)
 1. Students  Table
 - Id (int, not null, identity);
 - Name (varchar[20], not null);
@@ -10,7 +10,7 @@
 - ScoreValue (smallint, not null);
 - ScoreDescr (varchar[10], null);
 - FK (Students.ScoreId ßà Score.Id).
-##Views (HTML)
+## Views (HTML)
 1. Student (UI – Add – V1) + Validation - form
 - Name;
 - Surname;
@@ -23,7 +23,7 @@
 4. Вывод суммы всех ScoreValue баллов (UI – V4) - view
 5. Best/notBest (UI – V5) - view
 6. MVC Layout Page (all, my design) + Navigation
-##Controller - StudentsController
+## Controller - StudentsController
 1. Add (GET)
 2. Add (POST)
 3. AllInfo (GET)
