@@ -10,39 +10,66 @@ namespace ITMO.ASPNET.MVC.WebMVCR1.Controllers
 {
     public class HomeController : Controller
     {
+        private static PersonRepository db = new PersonRepository();
+
         // GET: Home
-        //public ActionResult Index()
-        //{
-        //    return View();
-        //}
-
-        public string Index(string hel)
+        public ViewResult Index()
         {
-            //string Greeting = ModelClass.ModelHello() + ", " + hel;
-            //return Greeting;
+            int hour = DateTime.Now.Hour;
+            ViewBag.Greeting = hour < 12 ? "Доброе утро" : "Добрый день";
+            ViewData["Mes"] = "хорошего настроения";
 
-            // string res = ExeEnum();
-
-            // string res = ExeStruct();
-
-            // string res = StudyCsharp.SetStatus(3);
-
-            // string res = StudyCsharp.ExeSwitch(StudyCsharp.SetStatus(3));
-
-            // string res = StudyCsharp.GetFunction(0, 9);
-
-            // string res = ExeFactorial(5);
-
-            // string res = ExeTriangle();
-
-            // string res = ExeCircle();
-
-            // string res = ExePolim();
-
-            string res = ExeCollection();
-
-            return res;
+            return View();
         }
+
+        [HttpGet]
+        public ViewResult InputData()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ViewResult InputData(Person p)
+        {
+            db.AddResponse(p);
+            return View("Hello", p);
+        }
+
+        public ViewResult OutputData()
+        {
+            ViewBag.Pers = db.GetAllResponses;
+            ViewBag.Count = db.NumberOfPerson;
+            return View("ListPerson");
+        }
+
+        #region Lab02
+        //public string Index(string hel)
+        //{
+        //    //string Greeting = ModelClass.ModelHello() + ", " + hel;
+        //    //return Greeting;
+
+        //    // string res = ExeEnum();
+
+        //    // string res = ExeStruct();
+
+        //    // string res = StudyCsharp.SetStatus(3);
+
+        //    // string res = StudyCsharp.ExeSwitch(StudyCsharp.SetStatus(3));
+
+        //    // string res = StudyCsharp.GetFunction(0, 9);
+
+        //    // string res = ExeFactorial(5);
+
+        //    // string res = ExeTriangle();
+
+        //    // string res = ExeCircle();
+
+        //    // string res = ExePolim();
+
+        //    string res = ExeCollection();
+
+        //    return res;
+        //}
 
         public string ExeEnum()
         {
@@ -155,4 +182,5 @@ namespace ITMO.ASPNET.MVC.WebMVCR1.Controllers
             return str.ToString();
         }
     }
+    #endregion
 }
