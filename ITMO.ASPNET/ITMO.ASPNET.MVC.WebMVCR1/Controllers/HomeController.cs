@@ -36,6 +36,7 @@ namespace ITMO.ASPNET.MVC.WebMVCR1.Controllers
         }
 
         public ViewResult OutputData()
+
         {
             ViewBag.Pers = db.GetAllResponses;
             ViewBag.Count = db.NumberOfPerson;
