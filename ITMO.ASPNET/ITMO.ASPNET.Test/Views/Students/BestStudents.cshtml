@@ -1,0 +1,31 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_BasicLayout.cshtml";
+    ViewBag.Title = "Лучшие студенты";
+}
+
+
+<div>
+    <h1>Лучшие студенты</h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Имя</th>
+                <th>Фамилия</th>
+                <th>Оценка</th>
+            </tr>
+        </thead>
+        @foreach (var student in ViewBag.BestStudents)
+        {
+            <tbody>
+                <tr>
+                    <td>@student.Name</td>
+                    <td>@student.Surname</td>
+                    <td>@student.Score.ScoreValue</td>
+                </tr>
+            </tbody>
+
+        }
+    </table>
+</div>
+

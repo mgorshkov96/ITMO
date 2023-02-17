@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="@Url.Content("~/Content/Bootstrap.css")" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="@Url.Action("AllStudents", "Students")" class="navbar-brand">
+                <img src="~/img/myLogo.png" title="На главную" alt="additional title" />
+            </a>
+        </div>
+        <div class="header-text">
+            Удобная система для контроля оценок.<br/>
+            Добавляйте учеников и выставляйте им оценки.
+        </div>
+    </header>
+    <nav>
+        <div class="navigation">
+            <ul>
+                <li>@Html.ActionLink("Список студентов", "AllStudents", "Students")</li>
+                <li>@Html.ActionLink("Добавить студента", "AddStudent", "Students")</li>
+                <li>@Html.ActionLink("Удалить студента", "DeleteStudent", "Students")</li>
+                <li>@Html.ActionLink("Сумма оценок", "Sum", "Students")</li>
+                <li>@Html.ActionLink("Лучшие студенты", "BestStudents", "Students")</li>
+                <li>@Html.ActionLink("Худшие студенты", "WorseStudents", "Students")</li>
+            </ul>
+        </div>       
+    </nav>
+    <main>
+        @RenderBody()        
+    </main>   
+</body>
+</html>

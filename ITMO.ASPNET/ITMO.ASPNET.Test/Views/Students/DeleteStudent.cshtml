@@ -1,0 +1,19 @@
+﻿@model ITMO.ASPNET.Test.Models.Student
+
+@{
+    Layout = "~/Views/Shared/_BasicLayout.cshtml";
+    ViewBag.Title = "Удалить студента";
+}
+
+<div>
+    <h1>Удалить студента</h1>
+    @using (Html.BeginForm())
+    {
+        <p>ID студента:</p>
+        <p>@Html.TextBoxFor(model => model.StudentId)</p>
+        <input type="submit" value="Удалить" />
+    }
+
+    @Html.ValidationSummary()
+</div>
+

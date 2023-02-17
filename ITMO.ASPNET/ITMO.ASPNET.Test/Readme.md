@@ -8,8 +8,8 @@
 2. Score  Table (целое/список) – справочник (ввод данных заранее)
 - Id (int, not null, identity);
 - ScoreValue (smallint, not null);
-- ScoreDescr (varchar[10], null);
-- FK (Students.ScoreId ßà Score.Id).
+- ScoreDescr (varchar[10], null).
+3. FK (Students.ScoreId ßà Score.Id)
 ## Views (HTML)
 1. Student (UI – Add – V1) + Validation - form
 - Name;

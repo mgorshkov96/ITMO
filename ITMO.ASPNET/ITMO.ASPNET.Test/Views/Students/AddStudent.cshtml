@@ -1,0 +1,22 @@
+﻿@model ITMO.ASPNET.Test.Models.Student
+
+@{
+    Layout = "~/Views/Shared/_BasicLayout.cshtml";
+    ViewBag.Title = "Добавить студента";
+}
+
+<div>
+    <h1>Добавить студента</h1>
+    @using (Html.BeginForm())
+    {
+        <p>Имя:</p>
+        <p>@Html.TextBoxFor(model => model.Name)</p>
+        <p>Фамилия:</p>
+        <p>@Html.TextBoxFor(model => model.Surname)</p>
+        <p>Оценка:</p>
+        <p>@Html.TextBoxFor(model => model.Score.ScoreValue)</p>
+        <input type="submit" value="Добавить" />
+    }
+
+    @Html.ValidationSummary()
+</div>

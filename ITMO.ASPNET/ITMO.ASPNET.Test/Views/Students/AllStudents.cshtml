@@ -1,0 +1,28 @@
+﻿@model  IEnumerable<ITMO.ASPNET.Test.Models.Student>
+
+@{
+    Layout = "~/Views/Shared/_BasicLayout.cshtml";
+    ViewBag.Title = "Cписок студентов";    
+    WebGrid grid = new WebGrid(Model);
+}
+
+<div>
+    <h1>Успеваемость студентов</h1>
+    @grid.GetHtml(
+    htmlAttributes: new { id = "gridId" },
+    tableStyle: "table",
+    mode: WebGridPagerModes.All,
+    firstText: "<< Первая",
+    previousText: "< Предыдущая",
+    nextText: "Следующая >",
+    lastText: "Последняя >>",
+
+    columns: new[]
+    {
+        grid.Column("StudentID", "ID"),
+        grid.Column("Name", "Имя"),
+        grid.Column("Surname", "Фамилия"),
+        grid.Column("Score.ScoreValue", "Оценка")
+    }
+    );
+</div>
