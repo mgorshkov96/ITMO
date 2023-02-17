@@ -17,7 +17,7 @@ header {
 
 .header-text{
     margin-right: 0;
-    width: 400px;
+    width: fit-content;
     height: 50px;
     margin-left: auto;
     margin-top: 25px;
