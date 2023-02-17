@@ -47,11 +47,15 @@
                                 <li><a href="SummaryBD.aspx">Список участников</a></li>
                                 <li><a href="About.aspx">Подробности</a></li>
                             </ul>
+                            <div class="footer">
+                                <asp:Literal ID="VisitorLiteral" runat="server" />
+                            </div>
                         </div>
                     </td>
                  </tr>
              </table>
         </div>
     </form>
+    
 </body>
 </html>

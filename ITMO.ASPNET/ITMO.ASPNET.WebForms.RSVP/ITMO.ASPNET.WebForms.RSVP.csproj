@@ -79,6 +79,7 @@
     <Content Include="App_Data\SeminarDatabase_log.ldf">
       <DependentUpon>SeminarDatabase.mdf</DependentUpon>
     </Content>
+    <Content Include="Global.asax" />
     <Content Include="Reg.aspx" />
     <Content Include="seeyouthere.html" />
     <Content Include="sorryyoucantcome.html" />
@@ -95,6 +96,9 @@
     </Compile>
     <Compile Include="About.aspx.designer.cs">
       <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="GuestResponse.cs" />
     <Compile Include="Reg.aspx.cs">
